@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // JSON.stringify()   , JSON.parse()
+        let x = {name:"one", age:34};
+
+        localStorage.setItem('trialData',JSON.stringify(x));
+
+        let ans = JSON.parse(localStorage.getItem('trialData'));
+        console.log(ans)
+
+
+
+        // let ans = JSON.stringify(x);
+        // console.log(ans)
+        // console.log(ans[0])
+
+        // let ans1 = JSON.parse(ans);
+        // console.log(ans1)
+      
+
+        // localStorage.setItem('trialData',);
+
+        // let ans = localStorage.getItem('trialData');
+        // console.log(ans)
+
+
+    </script>
+</body>
+</html>
